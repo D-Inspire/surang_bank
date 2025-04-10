@@ -11,7 +11,6 @@ header,.footer{
     justify-content: center;
     align-items: center;
     position: relative;
-    border: 3PX solid #498D66;
 }
 header>img,.footer>img{
     width: 100%;
@@ -60,6 +59,7 @@ nav{
     top: 0;
     left: 0;
     margin-top: 10px;
+    z-index: 5;
 }
 ul{
     width: 150vh;
